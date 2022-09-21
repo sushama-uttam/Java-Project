@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24448" started-at="2022-05-13T15:45:11Z" finished-at="2022-05-13T15:45:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="24448" started-at="2022-05-13T15:45:11Z" finished-at="2022-05-13T15:45:35Z">
+      <class name="runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@769f71a9]" name="setUpClass" is-config="true" duration-ms="151" started-at="2022-05-13T21:15:11Z" finished-at="2022-05-13T21:15:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="13469" started-at="2022-05-13T21:15:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-13T21:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login in the application with valid credentinal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@769f71a9]" name="runScenario" duration-ms="10741" started-at="2022-05-13T21:15:24Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-13T21:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify user is able to login in the application with invalid credentinal"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a end user I want to verify Vtiger application login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@769f71a9]" name="tearDownClass" is-config="true" duration-ms="37" started-at="2022-05-13T21:15:35Z" finished-at="2022-05-13T21:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
